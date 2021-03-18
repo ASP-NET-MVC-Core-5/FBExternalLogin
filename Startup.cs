@@ -48,8 +48,8 @@ namespace ClsWrkMembership
 
             services.AddAuthentication().AddFacebook(options =>
             {
-                options.AppId = "3813307185451227";
-                options.AppSecret = "869330db4aac065f4a0530174bc937fc";
+                options.AppId = "";
+                options.AppSecret = "";
                 options.AccessDeniedPath = "/AccessDeniedPathInfo";
             });
 
